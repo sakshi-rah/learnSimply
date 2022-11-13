@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>signup</title>
+    <script>
+        function succesful(){
+          alert("you are signup succesfully !")
+        }
+
+  </script>
     <style>
         *{
             padding: 0;
@@ -32,13 +38,13 @@
             outline: none;
             height: 50px;
             width: 100%;
-            background-color:rgb(117, 221, 247);
+            background-color:#00ccff;
             color:black;
             border-radius: 4px;
             font-weight: bold;
         }
         .btn1:hover{
-            background:rgb(107, 242, 247);
+            background:rgb(100, 220, 224);
             
             color: black;
         }
@@ -82,7 +88,7 @@
                         </div>
                         <div class="form-row">
                             <div class="col-lg-7">
-                                <button type="submit" class="btn1 mt-3 mb-3 " >Sign up</button>
+                                <button type="submit" class="btn1 mt-3 mb-3 " onclick="succesful()" >Sign up</button>
                             </div>
                         </div>
                         <p>Already have an account? <a href="./../pages/login.html"  >login</a></p>

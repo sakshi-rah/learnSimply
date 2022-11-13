@@ -78,7 +78,7 @@
 .submit {
     height: 50px;
     width: 120px;
-    background-color: rgb(117, 221, 247);
+    background-color: #00ccff;
     border: none;
     box-shadow: 1px 1px 5px skyblue;
     font-size: 20px;
@@ -91,7 +91,7 @@
     height: 52px;
     width: 122px;
     cursor: pointer;
-    background-color: rgb(107, 242, 247);
+    background-color: rgb(100, 220, 224);
     transition: 0.4s;
     color: black;
 }
@@ -99,7 +99,7 @@
 .bottom-card {
     height: 100px;
     width: 950px;
-    background-color: rgb(124, 231, 231);
+    background-color: #00ccff;
     display: flex;
     justify-content: space-evenly;
     margin-top: 14px;
