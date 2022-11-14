@@ -76,7 +76,7 @@ ul li label {
 }
 
 button {
-    background-color: #65adf5;
+    background-color: #00ccff;
     color: #fff;
     border: none;
     display: block;
@@ -88,6 +88,6 @@ button {
 }
 
 button:hover {
-    background-color: #0984e3;
+    background-color: rgb(100, 220, 224);
     ;
 }
