@@ -36,7 +36,7 @@ body{
 .maindivB{
     display: flex;
     padding: 50px ;
-    margin: 52px;
+    /* margin: 52px; */
 }
 
 .maindivA{
@@ -52,11 +52,8 @@ body{
 }
 .profile-card{
     position: relative;
-
-
     min-width: 400px;
     height: 500px;
-
     overflow: hidden;
     padding: 10px;
     margin-left: 10px;
@@ -64,6 +61,8 @@ body{
 
 .profile-card-image{
     opacity: 0.3;
+    margin-left: 100px;
+    width: 20vh;
 }
 
 .card-head{
@@ -138,7 +137,7 @@ body{
 
 .card-body{
     position: absolute;
-    bottom: 15px;
+    bottom: 39px;
     left:49%;
     margin: 5px;
     transform:translateX(-50%);
@@ -146,14 +145,14 @@ body{
     margin-bottom: -10px;
 }
 
-.card-body h4{
-    font-size: 26px;
-    color:#202020;
+.card-body h5{
+    margin: 0;
 }
 
 .card-body p{
-    font-size:18px ;
-    color: #141414;
+    font-size:14px ;
+    color: #141414a4;
+    padding: 0;
 }
 
 .social-link a{
