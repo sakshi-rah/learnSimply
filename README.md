@@ -1,2 +1,2 @@
-# learSimply
+# learnSimply
 ![Screenshot](Screenshot.png)
