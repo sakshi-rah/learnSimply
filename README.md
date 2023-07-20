@@ -1,2 +1,2 @@
-# Learn-Simply
-![Screenshot](./assest/Screenshot.png)
+# learSimply
+![Screenshot](./Screenshot.png)
